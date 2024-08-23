@@ -3,6 +3,10 @@ import java.util.Scanner;
 import Software-ENG.saxophone;
 public class demo 
 {
+    public void foo(saxophone sax)
+    {
+        sax.makeSound();
+    }
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
